@@ -1,0 +1,34 @@
+#heading_h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.heading_div{
+    box-shadow: 5px 5px 5px grey;
+}
+
+#object_p{
+    width: 100px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#accuracy_p{
+    width: 100px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+canvas{
+    border: solid;
+    border-width: 2px;
+    border-color: crimson;
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 100px;
+}

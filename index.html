@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Real-Time Image Identification</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body background="background.jpg">
+        <center>
+        <h3 class="btn btn-primary" id="heading_h3">
+            Real-Time Image Identification
+            <hr>
+            <center>
+                <div class="heading_div">
+                    The Model used is Mobilenet.
+                    <br><br>
+                    <div class="information_div">
+                        This Model is trained for more than 1.3 million images.
+                    </div>
+                </div>
+            </center>
+        </h3>
+        <br><br>
+        <p class="btn btn-success" id="object_p">Object:</p>
+        <br><br>
+        <p class="btn btn-success" id="accuracy_p">Accuracy:</p>
+    </center>
+    </body>
+    <script src="main.js"></script>
+</html>
